@@ -1,0 +1,80 @@
+
+*{
+padding: 0px;
+margin: 0px;
+}
+
+.menu-bar{
+    background-color: white;
+    text-align: center;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #666;
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+}
+.menu-bar ul #nav-img{
+    width: 150px;
+    margin-left: -100px;
+    margin-right:20px ;
+}
+.menu-bar ul li{
+    width: auto;
+    padding: 20px;
+    margin-left: 13px;
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.active{
+    background-color: #000000;
+}
+.menu-bar ul li:hover{
+    background-color: #fff;
+}
+
+.sub-menu1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu1 {
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin-top: 15px;
+    border: 1px solid white;
+}
+
+.menu-bar ul li:hover .sub-menu1 ul{
+    display: block;
+  
+   
+}
+
+.menu-bar ul li:hover .sub-menu1 ul li{
+    text-align: left;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px dotted white;
+    margin: 10px;
+    width: auto;
+    padding-right: 50px;
+    color: black;
+}
+.menu-bar ul li:hover .sub-menu1 ul li a{
+    color: black;
+}
+.menu-bar ul li:hover .sub-menu1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu1 ul li:hover{
+    background-color: #900;
+}
+
+ .links a{
+    text-decoration: none;
+    color: white;
+}
